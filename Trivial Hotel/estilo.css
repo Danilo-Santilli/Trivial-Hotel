@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*INICIO CABECALHO*/
+#cabecalho{
+	width: 90%;
+	background: #ebebeb;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#logo{
+	font-size: 2em;
+	padding: 50px 0 0 0;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+#estrelas{
+	background: url(imagens/estrelas.png);
+	width: 300px;
+	height: 66px;
+	margin: 0 auto;
+}
+
+#menu ul{
+	width: 800px;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu li{
+	float: left;
+}
+
+#menu a{
+	font-size: 1.2em;
+	text-decoration: none;
+	display: block;
+	color: #6e6e6e;
+	width: 200px;
+	padding: 20px 0;
+}
+
+#menu a:hover{
+	color: white;
+	background: #525252;
+}
+
+
+#home #menu a.home,
+#quartos #menu a.quartos,
+#reserve #menu a.reserve,
+#contato #menu a.contato{
+	background-color: #525252;
+	color: white;
+	cursor: text;
+}
+
+.clear{
+	clear: both;
+}
+/*FIM CABECALHO*/
+
+/*INICIO CONTEUDO 1*/
+#conteudo1{
+	background: #ebebeb;
+	margin: 30px auto;
+	width: 90%;
+	padding-bottom: 10px;
+}
+
+#imagem-quarto1, #imagem-quarto2{
+	width: 100%;
+}
+
+.titulo-quarto{
+	color: #6e6e6e;
+	text-align: center;
+	padding: 10px;
+	font-size: 2.5em;
+}
+
+.descricao-quarto{
+	text-align: center;
+	font-size: 1.5em;
+	padding: 10px 10px 0 10px;
+	color: #6e6e6e;
+}
+
+a.preco{
+	border: 1px solid #6e6e6e;
+	font-size: 1.4em;
+	text-decoration: none;
+	color: #6e6e6e;
+	display: block;
+	border-radius: 50px;
+	margin: 0 auto;
+	width: 300px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+a.preco:hover{
+	color: white;
+	background: #525252;
+}
+
+#hotel{
+	width: 100%;
+}
+
+#descricao-hotel{
+	text-align: center;
+	font-size: 1.5em;
+	padding: 10px 10px 0 10px;
+	color: #6e6e6e;
+}
+
+#informacoes{
+	color: #6e6e6e;
+	padding: 50px 50px;
+	font-size: 1.5em;
+}
+
+.telefone{
+	color: #6e6e6e;
+	padding: 10px 50px;
+	font-size: 1.5em;
+}
+
+.endereco{
+	color: #6e6e6e;
+	padding: 10px 50px;
+	font-size: 1.5em;
+}
+
+.email{
+	color: #6e6e6e;
+	padding: 10px 50px;
+	font-size: 1.5em;
+}
+/*FIM CONTEUDO 1*/
+
+/*INICIO CONTEUDO 2*/
+#conteudo2{
+	background: #ebebeb;
+	margin: 30px auto;
+	width: 90%;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+#quarto1{
+	float: left;
+	padding-top: 10px;
+	background: #fff url(imagens/quarto1.jpg)no-repeat;
+	background-size: 100%;
+	width: 400px;
+	height: 600px;
+	margin: 50px 0 0 100px;
+}
+
+#quarto2{
+	float: right;
+	padding-top: 10px;
+	background: #fff url(imagens/quarto2.jpg)no-repeat;
+	background-size: 100%;
+	width: 400px;
+	height: 600px;
+	margin: 50px 100px 0 0;
+}
+
+
+.descricao{
+	background-color: #fff;
+	text-align: center;
+	margin-top: 260px;
+	padding: 0px 10px 0px 10px;
+}
+
+.descricao h2{
+	font-size: 2em;
+	text-align: center;
+	margin-top: 0px;
+	color: #6e6e6e;
+}
+
+.descricao p{
+	font-size: 1.5em;
+	text-align: center;
+	text-indent: 2em;
+	color: #6e6e6e;
+	margin-top: 10px;
+}
+
+.descricao a{
+	font-size: 1.2em;
+	display: block;
+	background-color: #ebebeb;
+	color: #6e6e6e;
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+	margin: 20px auto;
+	width: 100px;
+	border-radius: 50px;
+}
+
+.descricao a:hover{
+	color: white;
+	background: #525252;
+}
+/*FIM CONTEUDO 2*/
+
+
+/*FORMULARIO*/
+#formulario{
+	line-height: 2em;
+	padding-left: 90px;
+	padding-right: 90px;
+	font-size: 1.5em;
+	color: #6e6e6e;
+}
+
+#formulario input{
+	line-height: 2em;
+	color: #6e6e6e;
+	
+}
+
+#formulario fieldset.pessoais{
+	padding-left: 50px;
+}
+
+#formulario fieldset.pessoais input{
+	width: 300px;
+}
+
+#formulario fieldset.estadia{
+	padding-left: 50px;
+}
+
+#formulario fieldset.estadia input.number,
+#formulario fieldset.estadia input.date,{
+	width: 300px;
+	font-size: 0.7em;
+}
+
+#formulario fieldset.estadia select{
+	width: 110px;
+	font-size: 0.7em;
+	color: #6e6e6e;
+}
+
+#formulario input.botao{
+	font-size: 1.3em;
+	display: block;
+	width: 100px;
+	line-height: 1.3em;
+	margin: 50px auto 50px auto;
+	color: #6e6e6e;
+	border: 1px solid #6e6e6e;
+	border-radius: 50px;
+}
+
+#formulario input.botao:hover{
+	background: #525252;
+	color: white;
+}
+

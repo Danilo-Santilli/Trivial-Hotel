@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title>Trivial Hotel</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body id="reserve">
+		<div id="cabecalho"><!--INICIO CABECALHO-->
+
+			<div id="logo"><!--INICIO LOGO-->
+				<h1>TRIVIAL HOTEL</h1>
+				<div id="estrelas"></div>
+			</div><!--FIM LOGO-->
+
+
+			<div id="menu">
+				<ul>
+					<li><a class="home" href="index.html">Home</a></li>
+					<li><a class="quartos" href="quartos.html">Quartos</a></li>
+					<li><a class="reserve" href="reserve.html">Reserve</a></li>
+					<li><a class="contato" href="contato.html">Contato</a></li>
+				</ul>
+			</div>
+
+			<div class="clear"></div>
+
+
+		</div><!--FIM CABECALHO-->
+
+		<div id="conteudo1">
+			<div id="formulario">
+				<form>
+					<fieldset class="pessoais">
+						<legend>Dados Pessoais</legend>
+							<label for="nome">Nome:</label>
+							<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+
+							<br>
+
+							<label for="email">Email:</label>
+							<input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+
+							<br>
+
+							<label for="telefone">Telefone:</label>
+							<input type="tel" name="telefone" id="telefone" placeholder="Telefone">
+
+							<br>
+
+							<label for="nascimento">Nascimento:</label>
+							<input type="date" name="nascimento" id="nascimento" placeholder="Nascimento">
+					</fieldset>
+
+					<br>
+					<br>
+
+					<fieldset class="estadia">
+						<legend>Dados da Estadia</legend>
+							<label>Qual quarto você deseja?
+								<select name="quarto">
+									<option value="luxo">Trivial Luxo</option>
+									<option value="lite">Trivial Lite</option>
+								</select>
+							</label>
+
+							<br>
+							<br>
+
+							<label for="entrada">Dia do check-in:</label>
+							<input class="date" type="date" name="entrada" id="entrada">
+
+							<br>
+
+							<label for="entrada">Dia do check-out:</label>
+							<input class="date" type="date" name="saida" id="saida">
+
+							<br>
+							<br>
+
+							<label>Quantidade de pessoas:</label><br>
+							<label for="adultos">Adultos:
+								<select name="adultos">
+									<option value="1">01</option>
+									<option value="2">02</option>
+									<option value="3">03</option>
+									<option value="4">04</option>
+									<option value="5">05</option>
+									<option value="6">06</option>
+									<option value="7">07</option>
+									<option value="8">08</option>
+									<option value="9">09</option>
+								</select>
+							</label><br>
+							<label for="criancas">Crianças:
+								<select name="criancas">
+									<option value="1">01</option>
+									<option value="2">02</option>
+									<option value="3">03</option>
+									<option value="4">04</option>
+									<option value="5">05</option>
+									<option value="6">06</option>
+									<option value="7">07</option>
+									<option value="8">08</option>
+									<option value="9">09</option>
+								</select>
+							</label>
+
+							<br>
+							<br>
+
+							<label for="necessidades">Necessidades:</label><br>
+							<label><input type="checkbox" name="wifi" id="necessidades">Wifi</label>
+							<label><input type="checkbox" name="cafe da manha" id="necessidades">Café da manhã</label>
+							<label><input type="checkbox" name="almoco" id="necessidades">Almoço</label><br>
+							<label><input type="checkbox" name="jantar" id="necessidades">Jantar</label>
+							<label><input type="checkbox" name="sv de quarto" id="necessidades">Serviço de quarto</label>
+							<label><input type="checkbox" name="garagem" id="necessidades">Garagem</label>
+					</fieldset>
+
+					<input class="botao" type="submit" value="Enviar">
+
+
+				</form>
+			</div>
+		</div>
+
+		
+	</body>
+</html>
